@@ -67,4 +67,5 @@ select * from Invités;
 select nom,statut from Invités;
 select count(*) from invités;
 select count(*) from invités where statut = 'Suspect';
+SELECT TOP 1 * FROM table_name ORDER BY id_invite ASC;
 
