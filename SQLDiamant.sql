@@ -57,3 +57,4 @@ INSERT INTO Objets (id_objet, nom_objet, id_room) VALUES (3, 'Statue en Bronze',
  INSERT INTO Objets (id_objet, nom_objet, id_room) VALUES (5, 'Lampe en Cristal', 4);
  
 select * from Invités;
+select nom,statut from Invités;
